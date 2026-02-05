@@ -63,6 +63,24 @@ VALID_MODELS = {
         "grok-4-fast-reasoning",
         "grok-4-fast-non-reasoning",
     ],
+    "zai": [
+        # GLM-4 flagship reasoning models
+        "glm-4",
+        "glm-4-plus",
+        # GLM-4 lightweight / fast inference
+        "glm-4-air",
+        "glm-4-flash",
+        # GLM-4 long-context models
+        "glm-4-long",
+        # Multimodal (vision-language)
+        "glm-4v",
+        # Image generation
+        "cogview-3",
+        # Embeddings / RAG
+        "embedding-2",
+        # Code-specialized models
+        "codegeex-4",
+    ],
 }
 
 
